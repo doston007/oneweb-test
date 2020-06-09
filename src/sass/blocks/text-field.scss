@@ -1,0 +1,36 @@
+.text-field {
+  align-items: start;
+  color: $color-text-accent;
+  display: flex;
+  font-size: 22.43px;
+  font-weight: 700;
+  line-height: 49.83px;
+  margin: 0;
+  margin-bottom: 13px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.text-field__input {
+  background-color: transparent;
+  background-image: url("img/separator.png");
+  background-position: bottom left;
+  background-repeat: repeat-x;
+  border: none;
+  display: block;
+  flex-grow: 1;
+  font-family: $font-input;
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0;
+  margin-left: 16px;
+  padding-left: 14px;
+
+  &--footer {
+    flex-grow: 0;
+    width: 195px;
+  }
+}
+

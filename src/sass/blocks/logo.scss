@@ -1,0 +1,17 @@
+.logo {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Arkship', Arial, sans-serif;
+	text-align: center;
+	line-height: 1.1;
+	align-self: flex-start;
+	font-weight: bold;
+	&__main {
+		font-size: 24px;
+		color: #2b2b2b;
+	}
+	&__sub {
+		font-size: 9px;
+		color: #654724;
+	}
+}

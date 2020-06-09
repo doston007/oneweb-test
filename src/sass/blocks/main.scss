@@ -1,0 +1,21 @@
+.main {
+  border: 0.1px solid transparent;
+  margin-bottom: 80px;
+  margin-top: 55px;
+
+  &__personal {
+    margin-bottom: 40px;
+  }
+
+  &__checkboxes {
+    margin-bottom: 30px;
+  }
+
+  &__javascript {
+    margin-bottom: 20px;
+  }
+
+  &__about {
+    margin-bottom: 35px;
+  }
+}
